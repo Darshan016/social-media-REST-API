@@ -1,0 +1,11 @@
+{
+  "name": "social-media-backend",
+  "version": "1.0.0",
+  "description": "backend app for a social media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darshan panchal",
+  "license": "ISC"
+}
