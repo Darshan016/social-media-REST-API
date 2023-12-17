@@ -5,6 +5,7 @@ const helmet = require("helmet")
 const morgan = require("morgan")
 const userRoute = require("./routes/users.js")
 const authRoute = require("./routes/auth.js")
+const postRoute = require("./routes/posts.js")
 
 const app = express()
 dotenv.config()
@@ -14,6 +15,7 @@ app.use(morgan('common'))
 
 app.use('/api/v1/users', userRoute)
 app.use('/api/v1/auth', authRoute)
+app.use('/api/v1/posts', postRoute)
 
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>{
