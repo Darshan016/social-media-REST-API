@@ -87,7 +87,7 @@ docker run -p 3000:3000 -d social-media-backend
 ```
 3. Or run via docker-compose:
 ```bash
-docker-compose up -d social-media
+docker-compose up -d
 ```
 Make sure to replace your MONGO_URL's host name with the mongo service mentioned in docker-compose file. If you started the app via docker-compose then your MONGO_URL will look like this:
 ```env
